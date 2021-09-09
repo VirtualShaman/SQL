@@ -1,0 +1,11 @@
+USE [tmpdb];
+
+SELECT *
+FROM tbl;
+
+INSERT INTO tbl (clm1, clm2)
+VALUES(vlu1, vlu2)
+
+UPDATE tempdb.tbl SET clm1 = 'vlu3', clm2='vlu4' WHERE id=1, 2;
+
+DELETE FROM tempdb.tbl1 WHERE id=1, 2;
